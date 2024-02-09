@@ -41,8 +41,6 @@ def process_tokens(self, remade_batch_tokens, batch_multipliers):
     original_mean = z.mean()
     z = z * batch_multipliers.reshape(batch_multipliers.shape + (1,)).expand(z.shape)
     new_mean = z.mean()
-    print(original_mean,new_mean)
-    print(original_mean / new_mean)
     if hasattr(shared.opts, OPT_NAME):
         if not getattr(shared.opts, OPT_NAME, False):
             z = z * (original_mean / new_mean)
