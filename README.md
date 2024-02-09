@@ -7,7 +7,7 @@ This script prevents the corruption of generated images that started being repor
 Animagine XL V3が流行りだした頃から報告され始めた生成画像の破綻を防ぐスクリプトです。詳しくは[こちら](https://note.com/hakomikan/n/nb6dd68a1bd9e)を参照して下さい。  
 
 # Install/インストール
-`https://github.com/hako-mikan/sd-webui-prevent-artifact`
+`https://github.com/hako-mikan/sd-webui-prevent-artifact`  
 After installing from Install from URL of Web-UI, please restart.  
 Web-UIのInstall from URLからインストールした後、再起動して下さい。  
 
